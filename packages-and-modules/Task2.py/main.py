@@ -1,4 +1,4 @@
-import module
+import areas
 
 def area_calculate_program():
     """
@@ -13,16 +13,16 @@ def area_calculate_program():
             length = float(input('Enter the length of the rectangle: '))
             width = float(input('Enter the width of the rectangle: '))
             
-            print(f'Area of the rectangle: {module.rectangle_area(length, width)}')
+            print(f'Area of the rectangle: {areas.rectangle_area(length, width)}')
         case 2:
             base = float(input('Enter the base of the triangle: '))
             height = float(input('Enter the height of the triangle: '))
 
-            print(f'Area of the triangle: {module.triangle_area(base, height)}')
+            print(f'Area of the triangle: {areas.triangle_area(base, height)}')
         case 3:
             radius = float(input('Enter the radius of the circle: '))
 
-            print(f'Area of the circle: {module.circle_area(radius)}')
+            print(f'Area of the circle: {areas.circle_area(radius)}')
         case _:
             print('Wrong number of shape.')
     
