@@ -2,7 +2,6 @@ from random import randint
 
 def guess_number_game():
     number = randint(1, 100)
-    print(number)
     tries = 10
 
     print('Welcome to the game!')
