@@ -1,5 +1,6 @@
 class Polygon:
-    pass
+    def info(self):
+        print("I am Polygon")
 
 class Rectangle(Polygon):
     def __init__(self, length, width):
@@ -15,3 +16,4 @@ width = float(input('Enter the width of the rectangle: '))
 rect = Rectangle(length, width)
 
 print(f'Rectangle area is: {rect.area()}')
+rect.info()
