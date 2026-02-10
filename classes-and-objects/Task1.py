@@ -1,6 +1,6 @@
 class Polygon:
     def info(self):
-        print("I am Polygon")
+        print(f'I am a {self.__class__.__name__}')
 
 class Rectangle(Polygon):
     def __init__(self, length, width):
